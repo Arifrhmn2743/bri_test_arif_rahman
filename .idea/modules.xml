@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/bri_test_arif_rahman.iml" filepath="$PROJECT_DIR$/bri_test_arif_rahman.iml" />
+      <module fileurl="file://$PROJECT_DIR$/android/bri_test_arif_rahman_android.iml" filepath="$PROJECT_DIR$/android/bri_test_arif_rahman_android.iml" />
+    </modules>
+  </component>
+</project>
