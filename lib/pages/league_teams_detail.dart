@@ -36,7 +36,8 @@ class _LeagueTeamsDetailState extends State<LeagueTeamsDetail> {
                     width: MediaQuery.of(context).size.width,
                     height: MediaQuery.of(context).size.height / 3,
                     boxFit: BoxFit.fill,
-                    imageUrl: Get.arguments['stadium']),
+                    imageUrl: Get.arguments['stadium'] ??
+                        "https://img.freepik.com/free-vector/soccer-stadium_1284-22432.jpg"),
                 Positioned(
                   top: 200,
                   child: Container(

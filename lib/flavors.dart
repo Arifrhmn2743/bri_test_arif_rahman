@@ -25,4 +25,18 @@ class F {
     }
   }
 
+  static String get selectedLeague {
+    switch (appFlavor) {
+      case Flavor.devdebug:
+        return 'English_Premier_League';
+      case Flavor.devrelease:
+        return 'German_Bundesliga';
+      case Flavor.proddebug:
+        return 'Scottish_Premier_League';
+      case Flavor.prodrelease:
+        return 'Indonesian_Super_League';
+      default:
+        return 'English_Premier_League';
+    }
+  }
 }

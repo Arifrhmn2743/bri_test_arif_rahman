@@ -17,7 +17,7 @@ class MainProvider with ChangeNotifier {
 
     try {
       var response = await Dio()
-          .get("${Api.apiLink}/search_all_teams.php?l=${Api.league}");
+          .get("${Api.apiLink}/search_all_teams.php?l=${Api().league}");
 
       teamData = Team.fromJson(response.data);
 
