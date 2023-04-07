@@ -96,3 +96,53 @@ flutter:
   #
   # For details regarding fonts from package dependencies,
   # see https://flutter.dev/custom-fonts/#from-packages
+
+flavorizr:
+  app:
+    android:
+      flavorDimensions: "flavor-type"
+    ios:
+  ide: "vscode"
+
+  flavors:
+    devdebug:
+      app:
+        name: "Dev Debug"
+
+      android:
+        applicationId: "com.devdebug.britest"
+
+      ios:
+        bundleId: "com.devdebug.britest"
+
+    devrelease:
+      app:
+        name: "Dev Release"
+
+      android:
+        applicationId: "com.devrelease.britest"
+
+      ios:
+        bundleId: "com.devrelease.britest"
+        
+
+    proddebug:
+      app:
+        name: "Prod Debug"
+
+      android:
+        applicationId: "com.proddebug.britest"
+      ios:
+        bundleId: "com.proddebug.britest"
+        
+
+    prodrelease:
+      app:
+        name: "Prod Release"
+
+      android:
+        applicationId: "com.prorelease.britest"
+      ios:
+        bundleId: "com.prodrelease.britest"
+        
+    
