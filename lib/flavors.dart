@@ -1,8 +1,8 @@
 enum Flavor {
-  devdebug,
-  devrelease,
-  proddebug,
-  prodrelease,
+  DEVDEBUG,
+  DEVRELEASE,
+  PRODDEBUG,
+  PRODRELEASE,
 }
 
 class F {
@@ -12,13 +12,13 @@ class F {
 
   static String get title {
     switch (appFlavor) {
-      case Flavor.devdebug:
+      case Flavor.DEVDEBUG:
         return 'Dev Debug';
-      case Flavor.devrelease:
+      case Flavor.DEVRELEASE:
         return 'Dev Release';
-      case Flavor.proddebug:
+      case Flavor.PRODDEBUG:
         return 'Prod Debug';
-      case Flavor.prodrelease:
+      case Flavor.PRODRELEASE:
         return 'Prod Release';
       default:
         return 'title';
@@ -27,13 +27,13 @@ class F {
 
   static String get selectedLeague {
     switch (appFlavor) {
-      case Flavor.devdebug:
+      case Flavor.DEVDEBUG:
         return 'English_Premier_League';
-      case Flavor.devrelease:
+      case Flavor.DEVRELEASE:
         return 'German_Bundesliga';
-      case Flavor.proddebug:
+      case Flavor.PRODDEBUG:
         return 'Scottish_Premier_League';
-      case Flavor.prodrelease:
+      case Flavor.PRODRELEASE:
         return 'Indonesian_Super_League';
       default:
         return 'English_Premier_League';

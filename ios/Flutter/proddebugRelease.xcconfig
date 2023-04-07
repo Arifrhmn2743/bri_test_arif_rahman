@@ -1,0 +1,6 @@
+#include "Generated.xcconfig"
+
+FLUTTER_TARGET=lib/main-proddebug.dart
+
+ASSET_PREFIX=proddebug
+BUNDLE_NAME=Prod Debug

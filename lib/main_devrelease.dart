@@ -3,6 +3,6 @@ import 'app.dart';
 import 'flavors.dart';
 
 void main() {
-  F.appFlavor = Flavor.devrelease;
+  F.appFlavor = Flavor.DEVRELEASE;
   runApp(const MyApp());
 }

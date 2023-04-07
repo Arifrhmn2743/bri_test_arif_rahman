@@ -141,7 +141,7 @@ flavorizr:
         name: "Prod Release"
 
       android:
-        applicationId: "com.prorelease.britest"
+        applicationId: "com.prodrelease.britest"
       ios:
         bundleId: "com.prodrelease.britest"
         
