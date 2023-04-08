@@ -20,3 +20,12 @@ Open vscode and type in terminal
   flutter run --flavor (Flavor) -t lib/main_(flavor).dart
 ```
     
+
+## Running the logic apps
+
+Open vscode and type in terminal
+
+```bash
+   dart run line_number_logic.dart
+```
+    
