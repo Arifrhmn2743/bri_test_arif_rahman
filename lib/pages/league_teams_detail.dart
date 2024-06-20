@@ -39,7 +39,7 @@ class _LeagueTeamsDetailState extends State<LeagueTeamsDetail> {
                     imageUrl: Get.arguments['stadium'] ??
                         "https://img.freepik.com/free-vector/soccer-stadium_1284-22432.jpg"),
                 Positioned(
-                  top: 170,
+                  top: 10,
                   child: Container(
                     decoration: const BoxDecoration(
                       color: Colors.white,
